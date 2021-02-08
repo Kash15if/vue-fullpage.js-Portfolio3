@@ -1,4 +1,4 @@
-# eglewala
+# fullpagejs-vue-portfolio
 
 ## Project setup
 ```
