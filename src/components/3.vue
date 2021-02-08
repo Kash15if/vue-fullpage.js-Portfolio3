@@ -19,7 +19,7 @@
         <div class="pNo"></div>
         <div class="pNo"></div>
         <div class="pNo"></div>
-        <div class="pNo"  style="background-color: #92FFBE;"></div>
+        <div class="pNo"  style="background-color: #EB7077;"></div>
         <div class="pNo"></div>
     </div>
 </div>
@@ -132,8 +132,8 @@ h2{
 
 .AllP > button{
   width: auto;
-  background-color: #92FFBE;
-  color: #000;
+  background-color: #EB7077;
+  color: #fff;
   margin-left: auto;
   border: none;
   padding: 15px 32px;

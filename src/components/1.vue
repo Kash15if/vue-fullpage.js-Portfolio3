@@ -4,7 +4,7 @@
 <div class="row">
 
   <div class="right">
-    <div class="pNo" style="background-color: #92FFBE;"></div>
+    <div class="pNo" style="background-color: #EB7077;"></div>
     <div class="pNo"></div>
     <div class="pNo"></div>
     <div class="pNo"></div>
@@ -95,7 +95,7 @@ export default {
   width: 70%;
   height: auto;
   border-radius: 50%;
-  border: 10px solid #E4FEF2;
+  border: 10px solid #9197FA;
   
 }
 
@@ -170,7 +170,7 @@ p{
   width: 60%;
   height: auto;
   border-radius: 50%;
-  border: 5px solid #E4FEF2;
+  border: 5px solid #9197FA;
   
 }
 

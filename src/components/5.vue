@@ -35,7 +35,7 @@
         <div class="pNo"></div>
         <div class="pNo"></div>
         <div class="pNo"></div>
-        <div class="pNo" style="background-color: #92FFBE;"></div>
+        <div class="pNo" style="background-color: #EB7077;"></div>
       </div>
 </div>
 
@@ -100,8 +100,8 @@ export default {
       flex: 20%;
       margin-top: 80px;
       margin-left: 2px;
-      background-color: #92FFBE;
-      color: #000;
+      background-color: #EB7077;
+      color: #fff;
       border: none;
       padding: 15px 32px;
       text-decoration: none;

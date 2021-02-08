@@ -25,7 +25,7 @@
 
     <div class="right">
         <div class="pNo"></div>
-        <div class="pNo" style="background-color: #92FFBE;"></div>
+        <div class="pNo" style="background-color: #EB7077;"></div>
         <div class="pNo"></div>
         <div class="pNo"></div>
         <div class="pNo"></div>
