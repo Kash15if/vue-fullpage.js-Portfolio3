@@ -12,10 +12,10 @@
       <div class="txt">
 
         <h1>Address: </h1><br>
-        <h5><img src="home.svg" alt=""> Carmichael hostel, kolkata-09, West Bengal, India.</h5>
-        <h5><img src="envelope.svg" alt="">
+        <h5><img src="../assets/logos/home.svg" alt=""> Carmichael hostel, kolkata-09, West Bengal, India.</h5>
+        <h5><img src="../assets/logos/envelope.svg" alt="">
           kash151if@gmail.com, kash15if@yahoo.com.</h5>
-        <h5><img src="telephone.svg" alt="">
+        <h5><img src="../assets/logos/telephone.svg" alt="">
           9709813874
         </h5>
 

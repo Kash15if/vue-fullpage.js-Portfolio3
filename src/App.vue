@@ -1,9 +1,9 @@
 <template>
 <div>
 
-    <full-page ref="fullpage" :options="options" id="fullpage">
+    <full-page ref="fullpage" :options="options" id="fullpage" >
   
-      <div class="section">
+      <div class="section" >
       <Bio/>
     </div>
     
