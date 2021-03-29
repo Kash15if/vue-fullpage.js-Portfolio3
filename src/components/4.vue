@@ -8,7 +8,25 @@
 
     <div class="content">
       
-      
+      <div style="width:100%;margin:20px auto;height:25vh">
+        <!-- Using the slider component -->
+        <slider ref="slider" :options="options">
+          <!-- slideritem wrapped package with the components you need -->
+          <slideritem v-for="(item,index) in someList" :key="index" style="background: #7baabe;width: 23%;margin-right: 2%;">{{item.html}}</slideritem>
+          <!-- Customizable loading -->
+          <div slot="loading">loading...</div>
+        </slider>
+      </div>
+
+      <div style="width:100%;margin:20px auto;height:25vh">
+        <!-- Using the slider component -->
+        <slider ref="slider" :options="options">
+          <!-- slideritem wrapped package with the components you need -->
+          <slideritem v-for="(item,index) in someList" :key="index" style="background: #7baabe;width: 48%;margin-right: 2%;">{{item.html}}</slideritem>
+          <!-- Customizable loading -->
+          <div slot="loading">loading...</div>
+        </slider>
+      </div>
 
     </div>
     
@@ -31,14 +49,101 @@
 </template>
 
 <script>
+import { slider, slideritem } from 'vue-concise-slider'
+
+
 export default {
-  name: ''
+  name: '',
+  data () {
+      return {
+        //data list [array]
+        someList:[
+          {
+         html: '1',
+         style: {
+           'background': '#4abf8a',
+           'width': '23.5%',
+           'margin-right': '2%'
+         }
+       },
+       {
+         html: '2',
+         style: {
+           'background': '#4bbfc3',
+           'width': '23.5%',
+           'margin-right': '2%'
+         }
+       },
+       {
+         html: '3',
+         style: {
+           'background': '#7baabe',
+           'width': '23.5%',
+           'margin-right': '2%'
+         }
+       },
+       {
+         html: '4',
+         style: {
+           'background': '#7caabe',
+           'width': '23.5%',
+           'margin-right': '2%'
+         }
+       },
+       {
+         html: '5',
+         style: {
+           'background': '#4abf8a',
+           'width': '23.5%',
+           'margin-right': '2%'
+         }
+       },
+       {
+         html: '6',
+         style: {
+           'background': '#4bbfc3',
+           'width': '23.5%',
+           'margin-right': '2%'
+         }
+       },
+       {
+         html: '7',
+         style: {
+           'background': '#7baabe',
+           'width': '23.5%',
+           'margin-right': '2%'
+         }
+       },
+       {
+         html: '8',
+         style: {
+           'background': '#7caabe',
+           'width': '23.5%',
+           'margin-right': '2%'
+         }
+       }
+        ],
+        //Slider configuration [obj]
+        options: {
+          currentPage: 0,
+          tracking: false,
+          thresholdDistance: 100,
+          thresholdTime: 300,
+          infinite: 4,
+          slidesToScroll: 4,
+          sloop: true
+        }
+      }
+    },
+    components: {
+      slider,
+      slideritem
+    }
 }
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-
 
 .row{
   display: flex;
@@ -118,5 +223,7 @@ h2{
       width: 7rem;
     }
 }
+
+
 
 </style>
